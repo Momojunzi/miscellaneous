@@ -1,0 +1,12 @@
+.box{
+    height:500px;
+    width:500px;
+    border:solid black 2px;
+}
+#circle{
+    position: relative;
+    height:100px;
+    width:100px;
+    border-radius: 50px;
+    background-color: palegoldenrod;
+}

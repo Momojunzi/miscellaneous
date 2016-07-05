@@ -1,0 +1,40 @@
+
+#header{
+    background-color: ivory;
+    box-shadow: 3px 3px 2px darkgrey;
+    margin-bottom: 10px;
+}
+
+#articleDiv{
+    background-image: url("images/chicken.PNG")  ;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 1.2em;
+}
+#article{
+
+}
+#siteTitle{
+    font-weight: bold;
+
+}
+#headerNavs{
+    font-size: 1.5em;
+
+}
+.headerLink{
+    border-right: solid black 1px;
+}
+.headerLink:hover{
+    background-color: lightgrey;
+
+}
+#headerNavsDiv{
+    margin-top:15px;
+
+}
+#homeLink{
+    border-left: solid black 1px;
+    color: black;
+}

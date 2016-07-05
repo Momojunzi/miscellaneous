@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+</head>
+<body>
+    <img id="animation" src="images/Untitled.png"/>
+
+    <script type="text/javascript">
+        var animationarray=["images/Untitled.png","images/Untitled.png","images/Untitled.png","images/Untitled.png","images/Untitled.png","images/Untitled.png","images/Untitled2.png","images/Untitled3.png",
+        "images/Untitled4.png","images/Untitled5.png","images/Untitled6.png","images/Untitled7.png","images/Untitled8.png",
+        "images/Untitled9.png","images/Untitled10.png","images/Untitled10.png","images/Untitled10.png","images/Untitled10.png","images/Untitled10.png","images/Untitled10.png","images/Untitled10.png"];
+
+        var animindex = -1;
+        var animation = document.getElementById("animation");
+        var animator = function(){
+            animindex +=1;
+            if(animindex >animationarray.length-1){
+                animindex=0;
+            }
+            animation.src=animationarray[animindex];
+        }
+        document.getElementById("animation").onload=setInterval(animator,62.5);
+
+    </script>
+</body>
+</html>
