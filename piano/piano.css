@@ -1,0 +1,68 @@
+#piano{
+    width:95%;
+    height:300px;
+    /*border:solid black 2px;*/
+    background-color: burlywood;
+    margin:auto;
+    padding-top: 10px;
+
+}
+
+#keyDiv1{
+    position:relative;
+    float: right;
+
+    margin:auto;
+    /*width:89.4%;*/
+    height:250px;
+
+}
+#keyDiv2{
+    position:relative;
+    margin-top:500px;
+
+
+    height:250px;
+
+}
+.whiteKey{
+    background-color: ivory;
+    float:left;
+    width:99px;
+    height:250px;
+    border-bottom:solid black 1px;
+    border-left:solid black 1px;
+    border-right: solid black 1px;
+}
+.whiteKey:hover{
+    background-color: aquamarine;
+}
+.blackKey{
+
+    float:left;
+    background-color: black;
+    width:60px;
+    height:200px;
+    border-bottom:solid black 1px;
+    border-left:solid black 1px;
+    border-right: solid black 1px;
+}
+.blackKey:hover{
+    background-color: aquamarine;
+}
+#c2{
+    width:100px;
+
+}
+.button{
+    position:absolute;
+    margin-top: 30px;
+    margin-left: 15px;
+    border:solid black 1px;
+    background-color: aqua;
+    width:50px;
+    height:25px;
+}
+.button:hover{
+    background-color: crimson;
+}

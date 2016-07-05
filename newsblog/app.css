@@ -1,0 +1,77 @@
+#background{
+    background-color:lightgrey;
+}
+div{
+    border-radius: 5px;
+    background-color: white;
+}
+#logo{
+    background-color:darkcyan ;
+    font-weight: bold;
+    font-size: 4em;
+}
+#navlinks{
+    background-color:darkcyan ;
+    margin-top:30px;
+    font-size: 2em;
+}
+#headerrow{
+    margin-bottom: 20px;
+    background-color: lightgrey;
+}
+#headdiv{
+    background-color:darkcyan ;
+    box-shadow: 3px 3px 2px darkgrey ;
+}
+#newsrow{
+    background-color: lightgrey;
+}
+#mainheadline{
+    margin-left:12px;
+    font-weight: bold;
+}
+#mainarticle{
+    z-index: 10;
+    margin-bottom: 20px;
+    box-shadow: 3px 3px 2px darkgrey ;
+}
+#advertisingcontainer
+{
+    padding:0;
+    background-color: lightgrey;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+#advertising{
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    box-shadow: 3px 3px 2px darkgrey;
+    text-align: center;
+}
+#newsdiv{
+    padding:0;
+    background-color: lightgrey;
+}
+#secondheadline{
+    margin-left:12px;
+    font-weight: bold;
+}
+#secondarticle{
+    z-index: 10;
+    margin-top:-50px;
+    margin-bottom: 20px;
+    box-shadow: 3px 3px 2px darkgrey ;
+}
+#advertisingcontainer2
+{
+    padding:0;
+    background-color: lightgrey;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+#advertising2{
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    box-shadow: 3px 3px 2px darkgrey;
+    text-align: center;
+}

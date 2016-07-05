@@ -1,0 +1,48 @@
+#main{
+    border:solid black 2px;
+    text-align: center;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    height:300px;
+    position: relative;
+    background-color: firebrick;
+    box-shadow: black 2px 2px 5px;
+
+}
+h1{
+    color: lightgoldenrodyellow;
+    font-family: sans-serif;
+
+}
+p{
+    color:palegoldenrod;
+}
+.contents{
+    margin-top:50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size:20px;
+
+}
+#yijingButton{
+    border: solid black 1px;
+    width: 100px;
+    height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:50px ;
+    margin-bottom: -50px;
+    background-color: darkgrey;
+    border-radius: 5px;
+    box-shadow:2px 2px 5px black;
+    display: table;
+}
+#btntxt{
+    display: table-cell;
+    vertical-align:middle ;
+    font-family:sans-serif ;
+    font-weight: bold;
+    color: black;
+
+}

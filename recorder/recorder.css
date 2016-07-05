@@ -1,0 +1,32 @@
+#main{
+    border:solid black 2px;
+    height:800px;
+    margin-top: 90px;
+    background-color: lightgrey;
+}
+#tape{
+    border:solid black 1px;
+    height:200px;
+    margin-top: 20px;
+    background-color: palegoldenrod;
+}
+#apptitle{
+    padding:0;
+    margin-top: 70px;
+    background-color: darkseagreen;
+    text-align: center;
+    border:solid black 1px;
+}
+#apptitle h2{
+    font-weight: bold;
+}
+.track{
+    border:solid black 1px;
+    height:400px;
+    margin-left:35px;
+    margin-top: 40px;
+    text-align: center;
+}
+.selectbtn{
+    margin:10px;
+}

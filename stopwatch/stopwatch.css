@@ -1,0 +1,44 @@
+body{
+    background-color: #5C7A99;
+}
+#clockbox{
+    margin:auto;
+    width:65%;
+    height:700px;
+    border:solid darkslateblue 1px;
+    margin-top: 100px;
+    background-color: steelblue;
+    box-shadow: darkslategray 10px 10px 30px;
+
+}
+#timebox{
+    width:80%;
+    height:25%;
+    border:inset dimgrey 10px;
+    margin:auto;
+    margin-top: 100px;
+    background-color: lightgrey;
+}
+#buttoncontainer{
+    width:60%;
+    margin:auto;
+}
+.button{
+    width:15%;
+    height:50px;
+    border:solid black 1px;
+    float:left;
+    margin-top: 150px;
+    margin-left: 95px;
+    background-color: khaki;
+    box-shadow: black 2px 2px 10px;
+    border-radius: 5px;
+}
+.buttontext{
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top:10px;
+    font-size: 1.5em;
+    background-color: khaki;
+}

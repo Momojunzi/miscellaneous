@@ -1,0 +1,43 @@
+.jumbotron {
+    position: relative;
+    background: #000 url("http://www.bayareacouncil.org/wp-content/uploads/2014/12/oakland.jpg") center center;
+    width: 100%;
+    height: 900px;
+    background-size: cover;
+    overflow: hidden;
+
+}
+#name{
+    font-size: 8em;
+    font-weight: bold;
+    color:#FFCC66;
+    text-shadow: 2px 2px black;
+}
+#jumboText{
+    margin-top: 50px;
+    font-size: 4em;
+    color:#FFCC66;
+    text-shadow: 2px 2px black;
+    font-weight: bold;
+}
+#jumboTextDiv{
+    margin-top: -30px;
+}
+#address{
+    margin-top: 20px;
+    margin-left: 60px;
+    font-size: 3em;
+    font-weight: bold;
+    color:#FFCC66;
+    text-shadow: 2px 2px black;
+}
+#penskeimg{
+    height:365px;
+    width:650px;
+}
+.thumbnail{
+    background-color: #FFCC66;
+}
+#body{
+    background-color: #B28F47;
+}

@@ -1,0 +1,60 @@
+.headerBar{
+    width:75%;
+    height:200px;
+    margin:auto;
+    border:solid black 1px;
+}
+.articleDiv{
+    float:left;
+    width:50%;
+    height:500px;
+    margin-left:12.5%;
+    border: solid black 1px;
+}
+.addDiv{
+    float:right;
+    width:25%;
+    height:500px;
+    margin-right:12.5%;
+    border: solid black 1px;
+}
+.footer{
+    float: left;
+    width:75%;
+    height:100px;
+    margin-left:12.5%;
+    border:solid black 1px;
+}
+.logo{
+    margin:0;
+    background-color: crimson;
+    width:24%;
+    height: 99.9%;
+    border-right: solid black 1px;
+    float:left;
+}
+.nav{
+    width:18.7%;
+    height:90%;
+    float:left;
+    border:solid black 1px;
+    margin-left: .25%;
+    margin-top:.75%;
+}
+.articleImage{
+    float:left;
+    height:50%;
+    width:40%;
+    border:solid black 1px;
+    margin:.5%;
+}
+.article{
+    margin:.5%;
+    padding:.5%;
+}
+#headline1:after{
+    content:"Hey! That is content not design!";
+}
+#article1:after{
+    content:"The first concern might be that of a separation-between-content-and-design purist You are literally adding text content to the page with CSS content, and that breaks that barrier. The spec is done and the idea implemented, but that doesn't mean it's not worth discussing If you have an opinion about CSS content and its use, please share in the comments I think it is awesome and perfectly suited for CSS. Consider the example above where we preface all elements with a class of email-address with the text 'Email address: '. That is a design decision, where for the clarity of content, it was decided that having that text before email addresses made the content more clear. Perhaps in a redesign of the site, there was less room where those email addresses are being displayed and it was decided that instead of prefacing them with text, a small icon would be used instead. This fits with the idea of CSS, in that the HTML content doesn't need to change at all, this change could be solely accomplished with CSS. I am going to publish an article tomorrow with this kind of idea.";
+}
