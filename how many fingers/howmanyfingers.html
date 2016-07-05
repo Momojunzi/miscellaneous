@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="howmanyfingers.css" type="text/css" rel="stylesheet">
+    <title>How Many Fingers</title>
+</head>
+<body>
+    <div id="content">
+        <div class="fixedwidth">
+            <div id="title">
+                <h1 id="titletext">How Many Fingers?</h1>
+            </div>
+        </div>
+        <div class="fixedwidth">
+            <div id="gamecontent">
+                <p id="starttext">Can you guess how many fingers I am holding behind my back?</p>
+                <input id="guess" type="text" placeholder="guess between 0 and 5" />
+                <button id="button">guess</button>
+                <p id="gameend"></p>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        var textlooparray=[
+            "Can you guess how many fingers I am holding behind my back?",
+            "Give it a try!"
+        ]
+        var textindex = -1;
+        var starttext=document.getElementById("starttext");
+        var textchange=function(){
+            textindex += 1;
+            if(textindex > textlooparray.length-1){
+                textindex = 0;
+            }
+            starttext.innerHTML=textlooparray[textindex];
+        }
+        document.getElementById("starttext").onload=setInterval(textchange, 2000);
+
+        var colorarray=["magenta", "blue","red"];
+        var colorindex=-1;
+        var titletext=document.getElementById("titletext");
+        var colorchange=function(){
+            colorindex +=1;
+            if(colorindex > colorarray.length-1){
+                colorindex = 0;
+            }
+            titletext.style.color=colorarray[colorindex];
+        }
+        document.getElementById("titletext").onload=setInterval(colorchange,1000);
+
+        document.getElementById("button").onclick=function() {
+            document.getElementById("gameend").innerHTML ="";
+            var guess = document.getElementById("guess").value;
+            var answer = Math.floor(Math.random()*6);
+            console.log(answer);
+            console.log(guess);
+            if (guess == answer) {
+                document.getElementById("gameend").innerHTML = "You guessed right! You win";
+            }
+            else {
+                document.getElementById("gameend").innerHTML = "You guessed wrong! Better luck next time.";
+            }
+        }
+    </script>
+
+</body>
+</html>

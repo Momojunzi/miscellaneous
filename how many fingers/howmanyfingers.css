@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding:0;
+}
+#content{
+    font-family: sans-serif;
+}
+#title{
+    border-radius: 5px;
+    width:100%;
+    height:50px;
+    background-color: aliceblue;
+    text-align: center;
+    color:red;
+
+}
+.fixedwidth{
+
+    width:75%;
+    margin: auto;
+}
+#gamecontent{
+    border-radius: 5px;
+    background-color: lightgrey;
+    margin-top:10px;
+    font-size: 2em;
+    text-align: center;
+}
+#winorlose{
+    font-size: 3em;
+
+}

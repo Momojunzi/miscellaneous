@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link href="fadein.css" rel="stylesheet" type="text/css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+</head>
+<body>
+    <div id="image1"></div>
+    <div id="image2"></div>
+    <h1 id="heading">I like Truck Numbers</h1>
+    <div id="testdiv">
+        <p>blah blah blah</p>
+    </div>
+
+    <script>
+
+
+        var slide = function() {
+            var tracker = 0;
+            while (tracker === 0) {
+                $("#image1").delay(10000).fadeOut(5000);
+                tracker = 1;
+            }
+
+            while (tracker === 1) {
+                $("#image1").delay(10000).fadeIn(5000);
+                tracker = 0;
+                slide();
+            }
+        }
+
+
+        $(document).ready(function(){
+            slide();
+
+        })
+    </script>
+
+</body>
+</html>

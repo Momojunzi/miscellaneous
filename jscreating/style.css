@@ -1,0 +1,23 @@
+.reddiv{
+    width:200px;
+    height: 200px;
+    background-color: red;
+}
+.bluediv{
+    width:200px;
+    height: 200px;
+    background-color: blue;
+}
+.greendiv{
+    width:200px;
+    height: 200px;
+    background-color: green;
+}
+.borderdiv{
+    position: absolute;
+    width: 500px;
+    height:200px;
+    border: solid black 5px;
+    border-radius: 50px;
+    float: right;
+}
